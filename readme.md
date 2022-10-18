@@ -1,6 +1,6 @@
 # Laravel 5, 6, 7, 8 & 9 ChatMessenger (+ Pusher)
 
-This package will allow you to add a full user messaging system into your Laravel application. It is a highly intuitive laravel 5/6 chatmessenger with added features such as maximum number of participants in a conversation, starred threads, and a unique social media sharing link for inviting users to a conversation(otherwise known as Thread in this package).
+This is a highly intuitive laravel chatmessenger with added features such as maximum number of participants in a conversation, starred threads, and a unique social media sharing link for inviting users to a conversation(otherwise known as Thread in this package).
 
 ## Features
 
@@ -36,8 +36,7 @@ Please check out the examples section for a detailed example usage.
 ### Deprecated Packages
 
 Since [Pusher Http Laravel](https://github.com/pusher/pusher-http-laravel) has been deprecated, the current
-demo uses the latest Laravel 5/6 trends of Broadcasting via events. Checkout [THE DEMO](https://github.com/lexxyungcarter/laravel-5-messenger-demo)
-to see it in action. It becomes more manageable and expressive to configure channels individually.
+demo uses the latest Laravel 5/6 trends of Broadcasting via events.
 
 > If you plan to migrate to Laravel 6, the Pusher Http Laravel deprecated package will prohibit you due to dependency issues.
 > You will simply need to create an event to fire the broadcast message, and a channel for broadcasting. You can check the demo
